@@ -56,3 +56,16 @@ body, html{
     height: 2.5em;
     border-radius: 0em;
 }
+@media (max-width: 1199px ) { 
+    .jumbotron h1{
+        font-size: 62px;
+        margin-bottom: 30px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+    .col-md-4 col-sm-4 col-lg-4 input   
+           {
+        width 10%;
+    }
+  
