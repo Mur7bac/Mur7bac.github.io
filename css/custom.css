@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+    margin: 0em;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+ul.nav{
+font-family: 'Arvo', serif;
+    font-size: 1.12em;
+
+}
+
+
+
+#sidebar{
+    font-family: 'Arvo', serif;
+    float: right;
+   margin-top: 0.625em;
+    width: 30%;
+}
+article#main-col{
+    float: left;
+    width: 65%;
+    margin-top: 3.125em;
+}
+
+
+section h1{
+    font-family: 'Arvo', serif;
+    margin-top: 2.1875em;
+    margin-bottom: 1.25em;
+}
+section p{
+    font-family: 'Arvo', serif;
+    font-size: 1em;
+    
+
+}
+
+span {
+    color: crimson;
+}
+
+.jumbotron{
+    text-align: center;
+    background-image: url('../images/hero_image.jpg');
+    background-repeat: repeat-y;
+    color: white;
+    margin: 0emp;
+    width: 101%;
+}
+.jumbotron h1{
+    padding: 0.625em;
+    margin-bottom: 1.25em;
+    margin-top: 2.1875em;
+}
+.jumbotron p{
+    margin-bottom: 1.875em;
+    font-weight: 100;
+    padding: 0 3.125em;
+    
+}
+.btn-lg{
+    font-size: 2em;
+}
+.container h1{
+    font-family: 'Arvo', serif;
+
+}
+.social-icon {
+  list-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+
+.social-icon li{
+  display: inline-block;
+  text-align: center;
+}
+.homepage{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.homepage h2, .homepage h3{
+    color: #e74c3c;
+    font-family: klavika, 'Arvo', serif;
+    text-transform: uppercase;
+}
+.homepage h2{
+    font-size: 30px;
+}
+.homepage h3{
+     font-size: 26px;
+}
+.homepage p{
+    font-weight: 300;
+    font-size: 21px;
+}
+.homepage a{
+    color: #e74c3c;
+}
+.homepage a:hover{
+    color: #e74c3c;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.homepage hr{
+    border-top: 1px solid #e74c3c;
+    margin: 15px auto;
+    width: 15%;
+}
+footer{
+    background-color: #e74c3c;
+    padding-bottom: 30px;
+    padding-top: 150px;
+}
+#get-involved{
+    background-color: #f5f5f5;
+}
+.fa-circle:before{
+    color: #2c2c2c;
+}
+.social-icon a {
+  display: block;
+  width: 2.75em;
+  height: 2.75em;
+  line-height: 2.75em;
+  border-radius: 50%;
+  margin-right: 0.3125em;
+}
+
+.social-icon a {
+  background: rgba(255, 255, 255, 0.85); /* social icon background color */
+  color: #000; /* social icon color */
+}
+
+.social-icon a:hover {
+  background: rgba(255, 255, 255, 0.25); /* social icon hover background color */
+  color: #fff; /* social icon hover color */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 0.3125em;
+  width: 100%;
+  height: 3.75em;
+  background-color: #000;
+}
+
+
+footer {
+    background-color: #f74c3c;
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
+    margin: 0em;
+}
+footer p{
+    font-size: 1.625em;
+    padding: 0em;
+    margin: 0em;
+    float: left;
+}
+.right{
+    float: right;
+    font-size: 0.9375em;
+    font-family: 'Avro', serif;
+    text-decoration: none;
+}
+.right a:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 1199px ) { 
+    .jumbotron h1{
+        font-size: 62px;
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width: 991px ) { 
+    .jumbotron h1{
+        font-size: 44px;
+    }
+    .jumbotron p{
+        padding: 0 10px;
+    }
+    #get-involved .col-md-4{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 764px ) { 
+    .jumbotron h1{
+        font-size: 24px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+        padding: 0px;
+    }
+    .btn-lg{
+        font-size: 18px;
+    }
+    .homepage p{
+        font-size: 18px;
+    }
+    footer p{
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

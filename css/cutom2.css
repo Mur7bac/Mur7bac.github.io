@@ -1,0 +1,58 @@
+body, html{
+    background-color: #2b2c2c;
+   font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.125em;
+}
+.container-fluid form{
+    top: 60%;
+    padding: 50px;
+}
+.attention{
+    color: white;
+    text-align: center;
+    margin-top: 1.25e;
+    padding: 20px 0;
+}
+.row{
+    display: inline;
+}
+
+.register-form{
+    font-size: 1em;
+   left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.regbutton{    
+    height: 3.125em;
+    width: 18.75em;
+    background-color:#e74c3c;;
+    border-radius: 0em;
+    font-size: 1.125em;
+    color:white;
+    border: none !important;
+    margin-bottom: 0.3125em;
+}
+.regbutton:hover{    
+    color: white;
+    background-color:#e74c3c;;
+}
+.regbutton:active{    
+    color: white;
+    background-color:#aa422f;
+}
+
+.register-form label{
+    color: white;
+    
+}
+.register-form input{
+    margin-bottom: 0.3125em;
+    width: 26.875em;
+    height: 2.5em;
+    border-radius: 0em;
+}
